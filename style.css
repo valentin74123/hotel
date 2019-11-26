@@ -1,0 +1,34 @@
+body {
+background-color: #FFE4B5;
+}
+
+#black {
+margin: 150px 10px 40px 10px;
+width:300px;
+padding:300px;
+border:1px solid black;
+}
+
+.menu {
+
+width: 400px; 
+list-style: none;
+}
+.menu li {
+float: left;
+margin-right: 10px;
+margin: 10; 
+}
+a {text-decoration: none;} 
+.menu li a {
+top:-300px;
+display: block; 
+padding: 3px 5px;
+background: #DAA520;
+color: #000;
+position: relative;
+}
+.menu li a:hover {
+background: #d2b48c;
+color: #fff;
+}
